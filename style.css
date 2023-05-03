@@ -1,0 +1,898 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+main{
+    background-color: beige;
+}
+
+header{
+    padding-bottom: 7rem;
+    height: 600px;
+    width: 100%;
+    background-image: url(https://images2.alphacoders.com/119/thumb-1920-1191759.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    padding: 1rem 0;
+}
+
+.logo_marca{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.enlaces a:hover{
+    color: #B85B30 ;
+}
+
+.enlaces{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 50px;
+    padding: 0 6rem;
+}
+
+.parr_principal{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 3rem 2rem 0rem 2rem;
+    gap: .5rem;
+}
+
+.titulo_princ{
+    text-align: center;
+    font-size: 45px;
+    color: #B85B30;
+    padding-top: 3rem;
+}
+
+.principal_info{
+    color: #B85B30;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.principal_info img{
+    height: 400px;
+    border-radius: 15%;
+    padding: 1rem;
+}
+
+.subt_p{
+    display: grid;
+    gap: 2rem;
+}
+
+.subt_p h2{
+    font-size: 40px;
+}
+
+.subt_p p{
+    font-size: 20px;
+}
+
+.buton{
+    text-align: center;
+    width: 15%;
+    background-color: #b85b30;
+    padding: 7px 12px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #B85B30 ;
+}
+.buton:hover{
+    background-color: beige;
+    color: #B85B30;
+    transition: .5s;
+}
+
+.sect_2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sect_4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.parallax{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://source.unsplash.com/random/1920×1080/?pets);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.svg_parall{
+    position: absolute;
+    bottom: 0;
+}
+.info_final{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.info_final div{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 600px;
+    text-align: center;
+}
+
+.info_final h2{
+    font-size: 30px;
+    color: #B85B30;
+
+}
+.info_final p{
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #b97759;
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+footer h3{
+    color: white;
+}
+footer span{
+    color: #B85B30;
+}
+
+
+@media (min-width: 328px) and (max-width: 479px) {
+
+    header{
+        padding-bottom: 7rem;
+        height: 550px;
+        width: 100%;
+        background-image: url(https://images2.alphacoders.com/119/thumb-1920-1191759.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    
+    .logo_marca{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        color: white;
+        gap: 10px;
+    }
+    .logo_marca img{
+        width: 25px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .enlaces a:hover{
+        color: #B85B30 ;
+    }
+    
+    .enlaces{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 40px;
+        padding: 0 2rem;
+    }
+    
+    .parr_principal{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        padding: 3rem 2rem 0rem 2rem;
+        gap: .5rem;
+    }
+    
+    .titulo_princ{
+        text-align: center;
+        font-size: 40px;
+        color: #B85B30;
+        padding-top: 3rem;
+    }
+    
+    .principal_info{
+        color: #B85B30;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .principal_info img{
+        height: 230px;
+        border-radius: 15%;
+        padding: 1rem;
+    }
+    
+    .subt_p{
+        display: grid;
+        gap: 2rem;
+    }
+    
+    .subt_p h2{
+        font-size: 35px;
+    }
+    
+    .subt_p p{
+        font-size: 20px;
+    }
+    
+    .buton{
+        width: 20%;
+        background-color: #b85b30;
+        padding: 7px 12px;
+        border-radius: 7px;
+        color: #fff;
+        font-weight: 700;
+        border: 1px solid #B85B30 ;
+    }
+    .buton:hover{
+        background-color: beige;
+        color: #B85B30;
+        transition: .5s;
+    }
+    
+    .parallax{
+        width: 100%;
+        height: 550px;
+        background-image: url(https://source.unsplash.com/random/1920×1080/?pets);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+    .svg_parall{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .info_final{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .info_final div{
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 600px;
+        text-align: center;
+    }
+    
+    .info_final h2{
+        font-size: 30px;
+        color: #B85B30;
+    
+    }
+    .info_final p{
+        font-size: 15px;
+        padding: 0 2rem;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: #b97759;
+        font-size: 20px;
+        padding: 1rem 0;
+    }
+    
+    footer h3{
+        color: white;
+    }
+    footer span{
+        color: #B85B30;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+
+    header{
+        padding-bottom: 7rem;
+        height: 550px;
+        width: 100%;
+        background-image: url(https://images2.alphacoders.com/119/thumb-1920-1191759.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    
+    .logo_marca{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        color: white;
+        gap: 10px;
+    }
+    .logo_marca img{
+        width: 25px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .enlaces a:hover{
+        color: #B85B30 ;
+    }
+    
+    .enlaces{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 40px;
+        padding: 0 2rem;
+    }
+    
+    .parr_principal{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        padding: 3rem 2rem 0rem 2rem;
+        gap: .5rem;
+    }
+    
+    .titulo_princ{
+        text-align: center;
+        font-size: 40px;
+        color: #B85B30;
+        padding-top: 3rem;
+    }
+    
+    .principal_info{
+        color: #B85B30;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .principal_info img{
+        height: 300px;
+        border-radius: 15%;
+        padding: 1rem;
+    }
+    
+    .subt_p{
+        display: grid;
+        gap: 2rem;
+    }
+    
+    .subt_p h2{
+        font-size: 35px;
+    }
+    
+    .subt_p p{
+        font-size: 20px;
+    }
+    
+    .buton{
+        width: 20%;
+        background-color: #b85b30;
+        padding: 7px 12px;
+        border-radius: 7px;
+        color: #fff;
+        font-weight: 700;
+        border: 1px solid #B85B30 ;
+    }
+    .buton:hover{
+        background-color: beige;
+        color: #B85B30;
+        transition: .5s;
+    }
+    
+    .parallax{
+        width: 100%;
+        height: 550px;
+        background-image: url(https://source.unsplash.com/random/1920×1080/?pets);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+    .svg_parall{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .info_final{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .info_final div{
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 600px;
+        text-align: center;
+    }
+    
+    .info_final h2{
+        font-size: 30px;
+        color: #B85B30;
+    
+    }
+    .info_final p{
+        font-size: 15px;
+        padding: 0 2rem;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: #b97759;
+        font-size: 20px;
+        padding: 1rem 0;
+    }
+    
+    footer h3{
+        color: white;
+    }
+    footer span{
+        color: #B85B30;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+
+    header{
+        padding-bottom: 7rem;
+        height: 550px;
+        width: 100%;
+        background-image: url(https://images2.alphacoders.com/119/thumb-1920-1191759.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    
+    .logo_marca{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        color: white;
+        gap: 10px;
+    }
+    .logo_marca img{
+        width: 30px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .enlaces a:hover{
+        color: #B85B30 ;
+    }
+    
+    .enlaces{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 40px;
+        padding: 0 2rem;
+    }
+    
+    .parr_principal{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        padding: 3rem 2rem 0rem 2rem;
+        gap: .5rem;
+    }
+    
+    .titulo_princ{
+        text-align: center;
+        font-size: 40px;
+        color: #B85B30;
+        padding-top: 3rem;
+    }
+    
+    .principal_info{
+        color: #B85B30;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .principal_info img{
+        height: 300px;
+        border-radius: 15%;
+        padding: 1rem;
+    }
+    
+    .subt_p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .subt_p h2{
+        font-size: 35px;
+    }
+    
+    .subt_p p{
+        font-size: 20px;
+    }
+    
+    .buton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        background-color: #b85b30;
+        padding: 7px 12px;
+        border-radius: 7px;
+        color: #fff;
+        font-weight: 700;
+        border: 1px solid #B85B30 ;
+    }
+    .buton:hover{
+        background-color: beige;
+        color: #B85B30;
+        transition: .5s;
+    }
+    
+    .parallax{
+        width: 100%;
+        height: 550px;
+        background-image: url(https://source.unsplash.com/random/1920×1080/?pets);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+    .svg_parall{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .info_final{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .info_final div{
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 600px;
+        text-align: center;
+    }
+    
+    .info_final h2{
+        font-size: 30px;
+        color: #B85B30;
+    
+    }
+    .info_final p{
+        font-size: 15px;
+        padding: 0 2rem;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: #b97759;
+        font-size: 20px;
+        padding: 1rem 0;
+    }
+    
+    footer h3{
+        color: white;
+    }
+    footer span{
+        color: #B85B30;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 1023px) {
+
+    header{
+        padding-bottom: 7rem;
+        height: 550px;
+        width: 100%;
+        background-image: url(https://images2.alphacoders.com/119/thumb-1920-1191759.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    
+    .logo_marca{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        color: white;
+        gap: 10px;
+    }
+    .logo_marca img{
+        width: 30px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .enlaces a:hover{
+        color: #B85B30 ;
+    }
+    
+    .enlaces{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 40px;
+        padding: 0 2rem;
+    }
+    
+    .parr_principal{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        padding: 3rem 2rem 0rem 2rem;
+        gap: .5rem;
+    }
+    
+    .titulo_princ{
+        text-align: center;
+        font-size: 40px;
+        color: #B85B30;
+        padding-top: 3rem;
+    }
+    
+    .principal_info{
+        color: #B85B30;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    
+    .principal_info img{
+        height: 300px;
+        border-radius: 15%;
+        padding: 1rem;
+    }
+    
+    .subt_p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .subt_p h2{
+        font-size: 35px;
+    }
+    
+    .subt_p p{
+        font-size: 20px;
+    }
+    
+    .buton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        background-color: #b85b30;
+        padding: 7px 12px;
+        border-radius: 7px;
+        color: #fff;
+        font-weight: 700;
+        border: 1px solid #B85B30 ;
+    }
+    .buton:hover{
+        background-color: beige;
+        color: #B85B30;
+        transition: .5s;
+    }
+    
+    .parallax{
+        width: 100%;
+        height: 550px;
+        background-image: url(https://source.unsplash.com/random/1920×1080/?pets);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+    .svg_parall{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .info_final{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .info_final div{
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 600px;
+        text-align: center;
+    }
+    
+    .info_final h2{
+        font-size: 35px;
+        color: #B85B30;
+    
+    }
+    .info_final p{
+        font-size: 20px;
+        padding: 0 2rem;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: #b97759;
+        font-size: 25px;
+        padding: 1rem 0;
+    }
+    
+    footer h3{
+        color: white;
+    }
+    footer span{
+        color: #B85B30;
+    }
+
+}
